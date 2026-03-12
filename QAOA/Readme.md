@@ -17,3 +17,9 @@ El problema de selección de hiperparámetros (Learning Rate, Batch, Hidden Laye
 
 ## 📊 Artefactos y Conclusiones
 * Los datos almacenados en `datos_hpo.json` prueban que, para paisajes de energía desconectados como la Optimización de Hiperparámetros, **QAOA sufre una penalización geométrica letal** durante la transpilación, haciéndolo inviable en hardware NISQ en comparación directa con el enfoque eficiente de VQE.
+
+## 📈 Resultados Visuales
+
+En esta gráfica se observa cómo el problema de ruteo y la explosión de compuertas SWAP (228 CX) destruyen la coherencia del circuito QAOA. El ruido térmico (naranja) aplana completamente la distribución de probabilidad, impidiendo la optimización.
+
+![Gráfica Resultados QAOA](grafica_qaoa_tfg.png)
