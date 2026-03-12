@@ -1,0 +1,13 @@
+# Dependencias Cuánticas
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+qiskit-algorithms>=0.4.0
+
+# Dependencias de Machine Learning (Clásico)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computación Científica y Visualización
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
