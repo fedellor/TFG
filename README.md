@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Qiskit](https://img.shields.io/badge/Qiskit-2.x-purple?logo=qiskit)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red?logo=pytorch)
-# ![Status](https://img.shields.io/badge/Status-Completado-success)
+![Status](https://img.shields.io/badge/Status-Completado-success)
 
 Este repositorio contiene el código fuente, los datos y los resultados de las simulaciones pertenecientes al **Trabajo de Fin de Grado (TFG)** sobre la aplicación de la Computación Cuántica para la Optimización de Hiperparámetros (HPO) en modelos de *Deep Learning*.
 
