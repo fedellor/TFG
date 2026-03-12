@@ -17,3 +17,9 @@ Para adaptar el problema clásico al entorno cuántico, se han mapeado las 64 pr
 
 ## 📊 Artefactos y Conclusiones
 * En el archivo `datos_hpo.json` y la gráfica generada se demuestra que **VQE es el algoritmo superior para la era NISQ** en problemas de HPO discretizados, logrando un equilibrio sin precedentes entre profundidad de circuito y capacidad de optimización heurística.
+
+## 📈 Resultados Visuales
+
+La siguiente gráfica demuestra la superioridad de VQE en la era NISQ. Gracias a la baja profundidad de su circuito (solo 10 puertas CX), la señal sobrevive al ruido térmico (naranja), logrando identificar configuraciones de hiperparámetros con precisiones superiores al 83%.
+
+![Gráfica Resultados VQE](grafica_vqe_tfg.png)
