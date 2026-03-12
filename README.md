@@ -41,6 +41,6 @@ La extracción de métricas topológicas durante el proceso de transpilación de
 Para reproducir este entorno de investigación en tu máquina local, asegúrate de tener Python 3.11+ instalado e instala las dependencias necesarias:
 
 ```bash
-pip install qiskit qiskit-aer qiskit-algorithms
-pip install torch torchvision
-pip install matplotlib numpy scipy
+git clone https://github.com/fedellor/TFG.git
+cd TFG
+pip install -r requirements.txt
