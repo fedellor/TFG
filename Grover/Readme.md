@@ -17,3 +17,9 @@ El ecosistema de código está estructurado de forma secuencial para contrastar 
 ## 📊 Artefactos Generados
 * **`datos_hpo.json`**: Diccionario central que almacena las precisiones de la red neuronal, los conteos de medición cuántica y las métricas topológicas de supervivencia.
 * **Gráficas (`.png`)**: Representaciones visuales que demuestran el colapso térmico del Oráculo de Grover al escalar la complejidad a 6 Qubits.
+
+## 📈 Resultados Visuales
+
+A continuación se muestra el colapso del algoritmo de Grover en el simulador ruidoso. Mientras que la simulación teórica (azul) encuentra perfectamente las soluciones, la alta densidad de puertas CX hace que la señal se pierda por completo bajo ruido real (naranja).
+
+![Gráfica Resultados Grover](grafica_grover_tfg.png)
