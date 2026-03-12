@@ -36,6 +36,18 @@ La extracción de métricas topológicas durante el proceso de transpilación de
 * **Cuello de Botella en QAOA:** Al mapear un paisaje de energía denso sin correlación geométrica, el Ansatz generó **228 puertas CX**, limitando la supervivencia al **~0.99%**.
 * **Resiliencia de VQE (El Ganador Práctico):** Al utilizar un Ansatz adaptado a la topología física (*Hardware-Efficient*), el entrelazamiento se redujo drásticamente a solo **10 puertas CX**. Esto elevó la supervivencia teórica por encima del **81%**, permitiendo al algoritmo encontrar configuraciones subóptimas pero altamente eficientes (superando el 83% de precisión clásica) bajo niveles severos de ruido.
 
+## 📊 Comparativa Topológica (Hardware IBM)
+
+La siguiente tabla resume el análisis de transpilación geométrica al adaptar los algoritmos a la topología física de 6 Qubits en la era NISQ:
+
+| Algoritmo | Ansatz / Oráculo | Profundidad Física | Puertas CX (Entrelazamiento) | Supervivencia Térmica Estimada | Viabilidad NISQ |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Grover** | Multi-Controlado (MCX) | > 800 | **494** | ~0.004% | ❌ Inviable |
+| **QAOA** | Hamiltoniano Coste Denso | 445 | **228** | ~0.99% | ❌ Inviable |
+| **VQE** | Hardware-Efficient | **20** | **10** | **>81.0%** | ✅ **Óptimo** |
+
+> *Nota: La supervivencia térmica se calcula matemáticamente asumiendo un error de despolarización estándar en las compuertas entrelazadas.*
+
 ## ⚙️ Instalación y Reproducibilidad
 
 Para reproducir este entorno de investigación en tu máquina local, asegúrate de tener Python 3.11+ instalado e instala las dependencias necesarias:
